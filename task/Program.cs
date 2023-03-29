@@ -26,14 +26,6 @@ string [] InputArray(int Lenght){
     return array;
 }
 
-// Увeличение размера массива и заполняем
-string[] AddLastInsert(string[] arr, string text, int k){
-    string[] newArray = new string[k];
-    newArray[k-1] = text;
-    arr = newArray;
-    return arr;
-}
-
 //Сортировка по заданным условиям
 string[] SortArray(string[] arrayOld){
     int m = 3;
